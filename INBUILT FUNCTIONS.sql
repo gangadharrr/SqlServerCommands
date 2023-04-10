@@ -1,0 +1,14 @@
+select AVG(salary) from employee;
+select ABS(25-30) ;
+select 12%5 ;
+select round(170,-2,1);
+select round(170,-2,0);
+select power(3,3);
+select square(25);
+select CURRENT_TIMESTAMP;
+select dateadd(SECOND,1,'12-23-2023 23:59:59');
+select dateadd(MINUTE,1,'12-23-2023 23:59:59');
+select dateadd(HOUR,1,'12-23-2023 23:59:59');
+select dateadd(DAY,1,'12-23-2023 23:11:59');
+select dateadd(MONTH,1,'12-23-2023 23:11:59');
+select dateadd(YEAR,1,'12-23-2023 23:11:59'	);
